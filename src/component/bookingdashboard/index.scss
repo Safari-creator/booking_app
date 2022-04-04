@@ -1,0 +1,32 @@
+$primary-color: #f29648;
+$secondary-color: #254442;
+
+.btn.default-btn {
+    background: $primary-color;
+    border: 0;
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: #333333;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 56%);
+    &:hover {
+        background: $secondary-color;
+    }
+}
+.table > :not(:first-child) {
+    border-top: 0px !important;
+}
+table.table {
+    color: #333333;
+    min-width: 860px;
+    th {
+        font-weight: normal;
+    }
+    td {
+        background: #fff;
+    }
+    th,
+    td {
+        padding: 10px 13px;
+    }
+}

@@ -1,0 +1,29 @@
+$primary-color: #f29648;
+$secondary-color: #254442;
+
+.btn.default-btn {
+    background: $primary-color;
+    border: 0;
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: #333333;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 56%);
+    &.default-red {
+        background: #d32f2f;
+        color: #fff;
+    }
+    &:hover {
+        background: $secondary-color;
+        color: #fff;
+    }
+}
+.h5.card-title {
+    border-bottom: 1px solid $secondary-color;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    @media (max-width: 767px) {
+        margin-bottom: 20px;
+    }
+}
